@@ -1,6 +1,7 @@
 
 body{
     background-color: #f5f8ff;
+    margin: 0;
 }
 /* font */
 .raleway-default {
@@ -276,6 +277,10 @@ textarea::placeholder{
 .box{
     box-sizing: border-box;
 }
+
+.touch-btn{
+    height: 62px;
+}
 .touch-btn:hover{
   background-color: #FFD600;
   color: black;
@@ -306,7 +311,7 @@ footer{
     background-color: white;
     border: 1px solid #F2EDED;
     height: 428px;
-    width: 100vw;
+    width: 100%;
 }
 .footer-header{
     font-family: "Inter", sans-serif;
