@@ -52,6 +52,13 @@ nav{
     height: 48px;
     width: 132px;
 }
+.nav-button:hover {
+  background-color: #FFD600;
+  color: black;
+  cursor: pointer; 
+  transform: scale(1.02);
+  transition: all 0.3s ease; 
+}
 /* banner */
 .banner{
     display: flex;
@@ -69,6 +76,13 @@ nav{
     width: 174px;
     padding: 12px 36px;
     margin: 37px 365.5px 152px;
+}
+.focused-btn:hover {
+  background-color: #FFD600;
+  color: black;
+  cursor: pointer; 
+  transform: scale(1.02);
+  transition: all 0.3s ease; 
 }
 
 /* action styles */
@@ -89,6 +103,13 @@ nav{
     height: 48px;
     font-weight: 229px;
 }
+.launch-btn:hover {
+  background-color: #FFD600;
+  color: black;
+  cursor: pointer; 
+  transform: scale(1.02);
+  transition: all 0.3s ease; 
+}
 .action-image-wc{
     height: 328px;
     width: 403px;
@@ -108,10 +129,11 @@ nav{
 .info-title{
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 
 .info-data{
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -121,11 +143,14 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 .number{
-   font-size: 40px;
    font-weight: 800;
-   color: #4E47FF;   
+   color: #4E47FF; 
+   font-size: 80px; 
+   margin-top: 0px;
+   margin-bottom: 0px; 
 }
 .label{
   font-size: 16px;
@@ -205,11 +230,28 @@ nav{
     height: 48px;
     margin-bottom: 20px;
 }
+.focus-btn:hover {
+  background-color: #FFD600;
+  color: black;
+  cursor: pointer; 
+  transform: scale(1.02);
+  transition: all 0.3s ease; 
+}
 .focus-image{
     border-radius: 48px;
     margin-bottom: 71px;
 }
 /* form styles shared */
+label{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+input::placeholder,
+textarea::placeholder{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
 
 /* form styles */
 .form{
@@ -234,6 +276,13 @@ nav{
 .box{
     box-sizing: border-box;
 }
+.touch-btn:hover{
+  background-color: #FFD600;
+  color: black;
+  cursor: pointer; 
+  transform: scale(1.02);
+  transition: all 0.3s ease; 
+}
  input[type="text"],  input[type="email"],  textarea{
     font-size: 20px;
     height: 70px;
@@ -243,6 +292,10 @@ nav{
     padding: 20px 20px;
     margin-bottom: 19px;
     border: 1px solid #F2EDED;
+    box-sizing: border-box; 
+}
+textarea{
+    height: 135px;
 }
 /* footer */
 footer{
@@ -256,6 +309,7 @@ footer{
     width: 100vw;
 }
 .footer-header{
+    font-family: "Inter", sans-serif;
     font-size: 100px;
     font-weight: 900;
     color: #4E47FF;
@@ -269,5 +323,12 @@ footer{
 .footer-item{
     display: flex;
     gap: 48px;
+}
+.footer-item a{
+    text-decoration: none;
     color: #8987A1;
+}
+.footer-item a:hover{
+    color: #4E47FF;
+    font-weight: 500;
 }
