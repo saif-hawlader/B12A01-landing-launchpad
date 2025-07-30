@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: #f5f8ff;
+}
 /* font */
 .raleway-default {
     font-family: "Raleway", sans-serif;
@@ -129,4 +131,54 @@ nav{
   font-size: 16px;
   color: rgba(0, 0, 0, .5);
   margin-top: 4px;
+}
+/* user styles */
+.icon-row{
+  width: 100px; 
+  height: 20px;
+  background-image: url(./Assets/icon-star.png);
+  background-repeat: repeat-x;
+  background-size: 20px 20px;
+}
+/* card styles */
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 137px;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    background-color: rgba(255 , 255, 255, 0.5);
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+}
+/* card - profile */
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.profile-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profile-para{
+    display: flex;
+    flex-direction: column;
+}
+.profile-name{
+    margin-bottom: 2px;
+}
+.work{
+    margin-top: 0;
 }
