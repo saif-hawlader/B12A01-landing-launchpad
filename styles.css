@@ -128,7 +128,7 @@ nav{
     
 }
 .info-title{
-    font-size: 24px;
+    font-size: 38px;
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -173,6 +173,9 @@ nav{
     justify-content: center;
     align-items: center;
     margin-top: 137px;
+}
+.user-title{
+    font-size: 42px;
 }
 .card-container{
     display: flex;
