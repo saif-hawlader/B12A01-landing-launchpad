@@ -182,3 +182,29 @@ nav{
 .work{
     margin-top: 0;
 }
+/* focus styles */
+.focus{
+    max-width: 1140px;
+    margin: 137px auto 0;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.focus-header{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sub-heading{
+    margin-top: 0px;
+    color: rgba(0, 0, 0, .5);
+}
+.focus-btn{
+    width: 195;
+    height: 48px;
+    margin-bottom: 20px;
+}
+.focus-image{
+    border-radius: 48px;
+}
